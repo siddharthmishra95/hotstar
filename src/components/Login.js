@@ -13,6 +13,7 @@ const Login = (props) => {
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.
           </Description>
+          <CTALogoTwo src="images/cta-logo-two.png" alt="CTA-logo-2" />
         </CTA>
         <BgImage />
       </Content>
@@ -91,6 +92,15 @@ const Description = styled.p`
   font-size: 14px;
   margin: 0 0 24px;
   line-height: 1.5;
+  letter-spacing: 1.5px;
+`;
+
+const CTALogoTwo = styled.img`
+  max-width: 600px;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 100%;
 `;
 
 export default Login;
